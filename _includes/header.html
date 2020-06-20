@@ -3,8 +3,8 @@
     <div class="d-flex align-items-center px-3">
 
       <div class="flex-grow-1">
-        <a class="text-warning" href="{{ "/" | relative_url }}">
-          <!-- <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="{{ site.title }}" style="width: 200px;"> -->
+        <a class="text-warning" href="{{ "/" | site.baseurl }}">
+          <!-- <img src="{{ "/assets/img/logo.png" | site.baseurl }}" alt="{{ site.title }}" style="width: 200px;"> -->
           <h3>
             <span class="text-warning font-weight-bold">Garage</span> 
             <span class="text-muted font-weight-bold">Roof</span><br>
@@ -33,7 +33,7 @@
   <div class="container py-0">
     <nav class="navbar navbar-expand-lg navbar-light">
       
-      <a class="btn btn-warning px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" href="{{ "/contact/" | relative_url }}">
+      <a class="btn btn-warning px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" href="{{ "/contact/" | site.baseurl }}">
         Book a Service
       </a>
       <button class="btn btn-warning px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" data-toggle="collapse"
@@ -45,12 +45,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold pl-0" href="{{ "/" | relative_url }}">
+            <a class="nav-link text-dark font-weight-bold pl-0" href="{{ "/" | site.baseurl }}">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold" href="{{ "/about/" | relative_url }}">
+            <a class="nav-link text-dark font-weight-bold" href="{{ "/about/" | site.baseurl }}">
               About
             </a>
           </li>
@@ -65,7 +65,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold" href="{{ "/contact/" | relative_url }}">
+            <a class="nav-link text-dark font-weight-bold" href="{{ "/contact/" | site.baseurl }}">
               Contact
             </a>
           </li>
@@ -92,7 +92,7 @@
             </a>
           </li>
         </ul>
-        <a class="btn btn-warning px-2 py-1 ml-3 my-2 my-sm-0 d-none d-lg-block" type="button" href="{{ "/contact/" | relative_url }}">
+        <a class="btn btn-warning px-2 py-1 ml-3 my-2 my-sm-0 d-none d-lg-block" type="button" href="{{ "/contact/" | site.baseurl }}">
           Book a Service
         </a>
       </div>
