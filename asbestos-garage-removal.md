@@ -1,9 +1,7 @@
 ---
-layout: services/asbestos-garage-removal
+layout: service
 title: "Asbestos Garage Removal"
 permalink: /asbestos-garage-removal/
 ---
 
-# Asbestos Garage Removal
-
-This should be shown
+abcd
