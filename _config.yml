@@ -162,5 +162,5 @@ plugins             : ["jekyll-seo-tag", "jekyll-datapage-generator"]
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "https://adyanmuhammad.github.io/mass-city-2/"
+baseurl             : "https://adyanmuhammad.github.io/mass-city-2"
 show_dir_listing    : false
