@@ -29,11 +29,12 @@
   </div>
 </div>
 
+{% assign baseurl = site.baseurl %}}
 <div class="container-fluid p-0 bg-white shadow sticky-top">
   <div class="container py-0">
     <nav class="navbar navbar-expand-lg navbar-light">
       
-      <a class="btn btn-warning px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" href="{{ "/contact/" | site.baseurl }}">
+      <a class="btn btn-warning px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" href="{{ "/contact/" | prepend: baseurl }}">
         Book a Service
       </a>
       <button class="btn btn-warning px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" data-toggle="collapse"
@@ -45,12 +46,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold pl-0" href="{{ "/" | site.baseurl }}">
+            <a class="nav-link text-dark font-weight-bold pl-0" href="{{ "/" | prepend: baseurl }}">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold" href="{{ "/about/" | site.baseurl }}">
+            <a class="nav-link text-dark font-weight-bold" href="{{ "/about/" | prepend: baseurl }}">
               About
             </a>
           </li>
@@ -65,7 +66,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold" href="{{ "/contact/" | site.baseurl }}">
+            <a class="nav-link text-dark font-weight-bold" href="{{ "/contact/" | prepend: baseurl }}">
               Contact
             </a>
           </li>
